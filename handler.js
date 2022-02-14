@@ -272,7 +272,7 @@ module.exports = {
       if (m.isBaileys) return
       if (m.chat.endsWith('broadcast')) return // Supaya tidak merespon di status
       let blockList = conn.blocklist.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid)
-      if (blockList.includes(m.sender)) return // Pengguna yang diblokir tidak bisa menggunakan bot
+      if (blockList.includes(m.sender)) true // Pengguna yang diblokir tidak bisa menggunakan bot
       m.exp += Math.ceil(Math.random() * 10)
 
       let usedPrefix
@@ -393,7 +393,7 @@ module.exports = {
           }
 
           m.isCommand = true
-          let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
+          let xp = 'exp' in plugin ? parseInt(plugin.exp) : 100// XP Earning per command
           if (xp > 200) m.reply('Ngecit -_-') // Hehehe
           else m.exp += xp
           if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
@@ -569,12 +569,12 @@ Untuk mematikan fitur ini, ketik
 global.dfail = (type, m, conn) => {
 	let name = conn.getName(m.sender)
   let msg = {
-    rowner: `❌Perintah ditolak❌\n\nSilahkan hubungi @${global.kontak[0].split`@`[0]}`,
-    owner: `❌⚠️Perintah ditolak⚠️❌\n\nSilahkan hubungi @${global.kontak[0].split`@`[0]}`,
-    mods: `❌Perintah ditolak❌\n\nSilahkan hubungi @${global.kontak[0].split`@`[0]}`,
-    premium: '❌Perintah Ini khusus pengguna _*Premium*_ !',
+    rowner: `❌Tidak Dapat Mengikuti Perintah❌\n\nSilahkan hubungi @${global.kontak[0].split`@`[0]}`,
+    owner: `❌⚠️Tidak Dapat Mengikuti Perintah⚠️❌\n\nSilahkan hubungi @${global.kontak[0].split`@`[0]}`,
+    mods: `❌Tidak Dapat Mengikuti Perintah❌\n\nSilahkan hubungi @${global.kontak[0].split`@`[0]}`,
+    premium: '❌Perintah Ini untuk pengguna _*Premium*_ !',
     group: 'Perintah ini hanya dapat digunakan di grup!',
-    private: '❌Perintah ditolak❌\n\nGunakan Perintah ini di Chat Pribadi bot',
+    private: '❌Tidak Dapat Mengikuti Perintah❌\n\nGunakan Perintah ini di Chat Pribadi bot',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
     nsfw: `Perintah ini hanya bisa diaktifkan oleh @${global.kontak[0].split`@`[0]}`,
     botAdmin: 'Jadikan Bot sebagai admin untuk menggunakan perintah ini\n\nDenger ya dekkk!!!\nApakah orang yang tidak menjadi admin bisa menambahkan member???!!!!!',
@@ -582,6 +582,7 @@ global.dfail = (type, m, conn) => {
   }[type]
   if (msg) return m.reply(msg)
 }
+
 
 let fs = require('fs')
 let chalk = require('chalk')
