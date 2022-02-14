@@ -15,11 +15,11 @@
 gc1 = ''
 gc2 = ''
 gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL', ''] // ganti jadi group lu
-global.owner = ['6288279268363'] // Put your number here //owner eval
-global.kontak = ['6288279268363','0'] //Ketika ada yang ngetik #owner
-global.mods = ['6288279268363'] // Want some help?
-global.prems = ['6288279268363'] // Premium user has unlimited limit
+global.linkGC = ['', ''] // ganti jadi group lu
+global.owner = ['601161739141','6281391584726'] // Put your number here //owner eval
+global.kontak = ['601161739141','0'] //Ketika ada yang ngetik #owner
+global.mods = ['601161739141'] // Want some help?
+global.prems = ['601161739141','60173398963','6281391584726','60149611779','60165079093','6283809730793] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -56,28 +56,28 @@ bearkey = 'buy'
 //xteam        MIMINETBOT
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
-kasihcaption = `Nih kak`
-namakontak1 = 'King Of Bear'
-namakontak2 = 'King Of Bear'
+kasihcaption = `oke Bos dah siap sorry kalau lambat😁`
+namakontak1 = '𝐒𝐀𝐁𝐑𝐈𝐄'
+namakontak2 = '𝐒𝐀𝐁𝐑𝐈𝐄'
 
-//kasihcaption = `Nih Kak`
+//kasihcaption = `DONE`
 
 // Sticker WM
-global.packname = 'By King Of Bear' // ganti aja
-global.author = 'King Of Bear' // ganti aja
+global.packname = '𝐒𝐀𝐁𝐑𝐈𝐄' // ganti aja
+global.author = '𝐒𝐀𝐁𝐑𝐈𝐄' // ganti aja
 
 //yyy
-bc = 'King Of Bear' //King Of Bear Broadcast
-footer = '\n©King Of Bear'
-namabot = 'YUKI BOT'
-namalu = 'King Of Bear'
+bc = '𝐒𝐀𝐁𝐑𝐈𝐄' //King Of Bear Broadcast
+footer = '\n©𝐒𝐀𝐁𝐑𝐈𝐄'
+namabot = '𝐒𝐀𝐁𝐑𝐈𝐄 𝐁𝐎𝐓𝐙'
+namalu = '𝐒𝐀𝐁𝐑𝐈𝐄'
 
 
 // 
-wait = '_*Tunggu Sebentar...*_'
-global.wait = '_*Tunggu Sebentar...*_'
-global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
-global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
+wait = '```[⌛]Tunggu Sebentar...```'
+global.wait = '```[⌛]Tunggu Sebentar...```'
+global.rpg = '```Menu Rpg Tidak Aktif Sila Type .on rpg Untuk Aktifkannya ATAU hubungi owner```'
+global.nsfw = '```Menu Nsfw tidak aktif type .on nsfw untuk menghidupkanya atau hubungi owner```'
 global.eror = '_*Server Error*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
