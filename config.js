@@ -19,7 +19,7 @@ global.linkGC = ['', ''] // ganti jadi group lu
 global.owner = ['601161739141','6281391584726'] // Put your number here //owner eval
 global.kontak = ['601161739141','0'] //Ketika ada yang ngetik #owner
 global.mods = ['601161739141'] // Want some help?
-global.prems = ['601161739141','60173398963','6281391584726','60149611779','60165079093','6283809730793] // Premium user has unlimited limit
+global.prems = ['601161739141','60173398963','6281391584726','60149611779','60165079093','6283809730793'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
