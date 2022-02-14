@@ -56,7 +56,7 @@ bearkey = 'buy'
 //xteam        MIMINETBOT
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
-kasihcaption = `oke Bos dah siap sorry kalau lambat😁`
+kasihcaption = `oke dah siap ni bg/kak`
 namakontak1 = '𝐒𝐀𝐁𝐑𝐈𝐄'
 namakontak2 = '𝐒𝐀𝐁𝐑𝐈𝐄'
 
