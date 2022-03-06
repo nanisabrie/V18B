@@ -2,8 +2,8 @@
 Saya cuma recode ngab
 
 
-## Join Group Diskusi
-[![ Chat WhatsApp ](https://wa.me/60102650191?text=.menu
+## chat bot untuk memainkanya
+[![WhatsApp]https://wa.me/60102650191?text=.menu
 **NO BOT**
 
 ```bash
