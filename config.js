@@ -16,10 +16,10 @@ gc1 = ''
 gc2 = ''
 gc3 = ''
 global.linkGC = ['', ''] // ganti jadi group lu
-global.owner = ['601161739141','6281391584726'] // Put your number here //owner eval
+global.owner = ['601161739141','60102850191'] // Put your number here //owner eval
 global.kontak = ['601161739141','0'] //Ketika ada yang ngetik #owner
 global.mods = ['601161739141'] // Want some help?
-global.prems = ['601161739141','60173398963','6281391584726','60149611779','60165079093','6283809730793'] // Premium user has unlimited limit
+global.prems = ['601161739141'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -56,7 +56,7 @@ bearkey = 'buy'
 //xteam        MIMINETBOT
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
-kasihcaption = `oke dah siap ni bg/kak`
+kasihcaption = 'DONE'
 namakontak1 = '𝐒𝐀𝐁𝐑𝐈𝐄'
 namakontak2 = '𝐒𝐀𝐁𝐑𝐈𝐄'
 
@@ -67,7 +67,7 @@ global.packname = '𝐒𝐀𝐁𝐑𝐈𝐄' // ganti aja
 global.author = '𝐒𝐀𝐁𝐑𝐈𝐄' // ganti aja
 
 //yyy
-bc = '𝐒𝐀𝐁𝐑𝐈𝐄' //King Of Bear Broadcast
+bc = '𝐒𝐀𝐁𝐑𝐈𝐄' //𝐒𝐀𝐁𝐑𝐈𝐄 𝐁𝐎𝐓𝐙 Broadcast
 footer = '\n©𝐒𝐀𝐁𝐑𝐈𝐄'
 namabot = '𝐒𝐀𝐁𝐑𝐈𝐄 𝐁𝐎𝐓𝐙'
 namalu = '𝐒𝐀𝐁𝐑𝐈𝐄'
