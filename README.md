@@ -20,8 +20,14 @@ npm i
 npm start
 ```
 ---------
-## CARA RUN DI TERMUX
+
+## CARA RUN BOT DI TERMUX
+```bash
 npm install -g pm2
 pm2 start main.js
 pm2 save
 pm2 monit
+```
+---------
+
+## 𝐒𝐀𝐁𝐑𝐈𝐄 𝐁𝐎𝐓𝐙
