@@ -3,7 +3,7 @@ Saya cuma recode ngab
 
 
 ## Join Group Diskusi
-[![ WhatsApp ](https://wa.me/60102650191?text=.menu
+[![ Chat WhatsApp ](https://wa.me/60102650191?text=.menu
 **NO BOT**
 
 ```bash
