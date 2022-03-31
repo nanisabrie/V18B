@@ -10,15 +10,7 @@ let Neko = new neko()
 handler.help = ['boobs']
 handler.tags = ['hentai']
 handler.command = /^boobs$/i
-handler.owner = false
-handler.mods = false
-handler.premium = true
-handler.group = false
-handler.private = false
-
-handler.limit = true
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true
 
 handler.fail = null
 
