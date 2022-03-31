@@ -11,15 +11,7 @@ await conn.sendFile(m.chat, json, 'yuri.jpg', kasihcaption, m, false, { contextI
 handler.help = ['yuri']
 handler.tags = ['bokep']
 handler.command = /^yuri$/i
-handler.owner = false
-handler.mods = false
-handler.premium = true
-handler.group = false
-handler.private = false
-
-handler.limit = true
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true
 
 handler.fail = null
 
