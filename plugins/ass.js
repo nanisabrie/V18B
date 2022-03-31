@@ -10,9 +10,7 @@ handler.help = ['ass']
 handler.tags = ['hentai']
 
 handler.command = /^(ass)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
+handler.owner = true
 
 handler.admin = false
 handler.botAdmin = false
