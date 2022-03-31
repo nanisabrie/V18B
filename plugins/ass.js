@@ -12,11 +12,10 @@ handler.tags = ['hentai']
 handler.command = /^(ass)$/i
 handler.owner = true
 
-handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.limit = true
+handler.limit = 500000
 
 module.exports = handler
 
