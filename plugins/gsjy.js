@@ -46,13 +46,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let uptime = clockString(_uptime)
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'sound', 'vn', 'jadibot', 'info','virus', 'vote', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'sound', 'vn', 'jadibot', 'info','virus', 'vote', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
     'game': 'Game',
     'xp': 'Exp & Limit',
-    'nsfw': `NSFW ${global.opts['nsfw'] ? '' : '(Dinonaktifkan)'}`,
     'sticker': 'Stiker',
     'edukasi': 'Edukasi',
     'news': 'News',
@@ -93,10 +92,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'edukasi') tags = {
     'edukasi': 'Edukasi'
-  }
-  if (teks == 'nsfw') tags = {
-    'hentai': 'Hentai',
-    'bokep': 'Bokep'
   }
   if (teks == 'stiker') tags = {
     'sticker': 'Stiker'
@@ -293,10 +288,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "XP Dan Level",
                   "rowId": ".? xp"
                 },  {
-                  "title": "[🔞] NSFW",
-                  "description": "Menu Bokep",
-                  "rowId": ".? nsfw"
-                }, {
                   "title": "[🖼️] Random Image",
                   "description": "Menu Foto Random",
                   "rowId": ".? image"
