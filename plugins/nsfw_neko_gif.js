@@ -18,14 +18,7 @@ let handler  = async (m, { conn, text }) => {
 handler.help = ['hnekogif']
 handler.tags = ['hentai']
 handler.command = /^hnekogif$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.limit = true 
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true
 
 handler.fail = null
 
