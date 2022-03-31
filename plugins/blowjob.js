@@ -9,9 +9,7 @@ handler.help = ['blowjob']
 handler.tags = ['hentai']
 
 handler.command = /^(blowjob)$/i
-
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true
 
 handler.fail = null
 handler.limit = true
