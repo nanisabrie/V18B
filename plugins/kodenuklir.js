@@ -887,17 +887,9 @@ Omega
 handler.help = ['kodenuklir']
 handler.tags = ['hentai']
 handler.command = /^kodenuklir$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true
 
 handler.fail = null
-handler.limit = true
 
 module.exports = handler
 
