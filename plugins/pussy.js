@@ -11,17 +11,9 @@ handler.help = ['pussy']
 handler.tags = ['hentai']
 
 handler.command = /^(pussy)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true
 
 handler.fail = null
-handler.limit = true
 
 module.exports = handler
 
