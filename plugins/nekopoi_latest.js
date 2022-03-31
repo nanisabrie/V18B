@@ -11,5 +11,6 @@ handler.help = ['nekolatest']
 handler.tags = ['hentai']
 handler.limit = true
 handler.command = /^nekolatest$/i
+handler.owner = true
 
 module.exports = handler
