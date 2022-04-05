@@ -7,7 +7,7 @@ handler.help = ['kick', '-'].map(v => v + ' @user')
 handler.tags = ['admin']
 handler.command = /^(kick|\-)$/i
 handler.admin = true
-handler.owner = true
+handler.owner = false
 handler.group = true
 
 module.exports = handler
