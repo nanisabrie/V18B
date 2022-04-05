@@ -6,12 +6,9 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['kick', '-'].map(v => v + ' @user')
 handler.tags = ['admin']
 handler.command = /^(kick|\-)$/i
-handler.owner = true
-handler.premium = true
-handler.group = true
-
 handler.admin = true
-
+handler.owner = true
+handler.group = true
 
 module.exports = handler
 
