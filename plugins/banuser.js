@@ -12,5 +12,5 @@ handler.help = ['ban']
 handler.tags = ['owner']
 handler.command = /^ban$/i
 handler.mods = true
-
+handler.owner = true
 module.exports = handler
