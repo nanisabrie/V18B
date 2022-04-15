@@ -9,6 +9,7 @@ handler.command = /^(kick|\-)$/i
 handler.admin = true
 handler.owner = false
 handler.group = true
+handler.limit = 30
 
 module.exports = handler
 
