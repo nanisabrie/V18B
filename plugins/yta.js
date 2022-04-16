@@ -32,7 +32,7 @@ handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.exp = 90000
+handler.exp = 1
 handler.limit = 3
 
 module.exports = handler
