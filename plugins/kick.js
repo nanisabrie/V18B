@@ -10,7 +10,7 @@ handler.admin = true
 handler.owner = false
 handler.group = true
 
-handler.limit = 30
+handler.limit = 20
 
 module.exports = handler
 
