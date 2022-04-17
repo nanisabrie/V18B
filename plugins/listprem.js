@@ -11,6 +11,5 @@ let handler = async (m, { conn }) => {
 handler.help = ['premlist']
 handler.tags = ['owner']
 handler.command = /^(listprem|premlist)$/i
-handler.owner = true
 
 module.exports = handler
